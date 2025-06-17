@@ -24,6 +24,21 @@
       color: #000;
     }
 
+    .back-button {
+      display: inline-block;
+      background-color: orange;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: darkorange;
+    }
+
     .container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -77,6 +92,7 @@
   <header>
     <h1>Lamborghini Sport Cars</h1>
     <p>Supercar Italia berperforma tinggi dan desain agresif</p>
+     <a href="index.html" class="back-button">Kembali ke Beranda</a>
   </header>
 
   <main class="container">
